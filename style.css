@@ -50,7 +50,6 @@
     display: flex;
     justify-content: space-between;
     width: 350px;
-    justify-content: center;
 }
 
 .main-nav li{   
@@ -144,6 +143,11 @@
         font-size: 70px;
     }
     
+    .main-nav {
+        margin: 0;
+        justify-content: center;
+    }
+    
     .main-nav li a {
         font-size: 50px;
     }
@@ -163,8 +167,8 @@
     
     .container-center-p p {
         margin-left: 0;
-        padding: 20px;
-        font-size: 35px;
+        margin: 20px;
+        font-size: 30px;
     }
     
     .container-center-img {
