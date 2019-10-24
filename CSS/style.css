@@ -128,6 +128,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .header, #particles-js {
+        height: 200px;
+    }
+    
     #overlay {
         flex-direction: column;
         justify-content: space-around;
@@ -156,7 +160,7 @@
     
     .container-center-p p {
         margin-left: 0;
-        font-size:30;
+        font-size: 30px;
     }
     
     .container-center-img {
