@@ -135,6 +135,7 @@
     #overlay {
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         flex-wrap: nowrap;
     }
     
@@ -151,6 +152,7 @@
         flex-wrap: nowrap;
         align-items: center;
         width: auto;
+        height: auto;
     }
     
     .container-center-p {
