@@ -201,6 +201,7 @@
     .main-nav {
         margin: 0;
         justify-content: center;
+        width: 100%;
     }
     
     .main-nav li a {
@@ -238,7 +239,12 @@
     
     .founders-container {
         flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
+    }
+    
+    .founders-container-description {
+        width: 100%;
     }
 }
