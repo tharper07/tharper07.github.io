@@ -240,7 +240,7 @@
     .founders-container {
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     
