@@ -1,58 +1,67 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <title>SeaMath Circles</title>
         <meta charset="utf-8">
-        <title>About SeaMath Circles</title>
-        <link rel="stylesheet" href="CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    
-    <body>
-        <div class="header">
-            <div id="particles-js"></div>
-            
-            <div id="overlay">
-                <div class="logo">Seattle Math Circles</div>
 
-                <ul class="main-nav">
-                    <li><a href="index.html">HOME</a></li>
-                    <li class="active"><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+    <body>        
+        <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">Seattle Math Circles</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>    
                 </ul>
-            </div>
+            </div>  
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid text-center text-light bg-secondary overflow-hidden" style="position:relative !important">
+            <div id="particles-js"></div>
+            <h3>by teachers who love math <br>for teachers who love math</h3>
+            
             <script type="text/javascript" src="JS/particles.js"></script>
             <script type="text/javascript" src="JS/app.js"></script>
         </div>
         
-        <div class="founders-label">
-            <p>Founding Members</p>
-        </div>
-        
-        <div class="container">       
-            <div class="founders-container">
-                <div class="founders-container-description">
-                    <div class="founders-container-description-title">
-                        Hudson Harper
+        <div class="container">
+            <h1 style="text-align:center">Founding Members</h1>
+            <div class="card-deck">
+                <div class="card border-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Hudson Harper</h5>
+                        <p class="card-text">Hudson is a member of the faculty and administrative team at The Downtown School located next to the Seattle Center. He teaches courses in Mathematical and Computational Thinking, Precalculus, and Calculus. His primary passion in education is promoting inquiry and thinking about the future of high school mathematics.</p>
                     </div>
-                    <p>Hudson is a member of the faculty and administrative team at The Downtown School located next to the Seattle Center. He teaches courses in Mathematical and Computational Thinking, Precalculus, and Calculus. His primary passion in education is promoting inquiry and thinking about the future of high school mathematics.
-                    </p>
+                    <img class="card-img-bottom" src="IMG/hudson-profile-pic.jpg" alt="Card image cap">
                 </div>
-                <div class="founders-container-photo">
-                    <img src="IMG/hudson-profile-pic.jpg" style="height:inherit">
-                </div>
-                <div class="founders-container-description">
-                    <div class="founders-container-description-title">
-                        Ben Fischer
+                <div class="card border-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Ben Fischer</h5>
+                        <p class="card-text">Ben is a member of the Math Department at the Seattle Academy of Arts and Sciences, where he teaches Precalculus. Ben works to teach math students at all levels to develop their mathematical habits and ask good questions. Ben's strengths are forming engaging problems and getting students to pull apart and understand difficult concepts. </p>
                     </div>
-                    <p>Ben is a member of the Math Department at the Seattle Academy of Arts and Sciences, where he teaches Precalculus. Ben works to teach math students at all levels to develop their mathematical habits and ask good questions. Ben's strengths are forming engaging problems and getting students to pull apart and understand difficult concepts. 
-                    </p>
-                </div>
-                <div class="founders-container-photo">
-                    <img src="IMG/ben-profile-pic.png" style="height:inherit">
+                    <img class="card-img-bottom" src="IMG/ben-profile-pic.png" alt="Card image cap">
                 </div>
             </div>
         </div>
-        
+                    
     </body>
-    
 </html>

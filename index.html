@@ -1,48 +1,58 @@
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <title>SeaMath Circles</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SeaMathCircles</title>
-        <link rel="stylesheet" href="CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    
-    <body>
-        <div class="header">
-            <div id="particles-js"></div>
-            
-            <div id="overlay">
-                <div class="logo">Seattle Math Circles</div>
 
-                <ul class="main-nav">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+    <body>        
+        <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">Seattle Math Circles</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>    
                 </ul>
-            </div>
+            </div>  
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid text-center text-light bg-secondary overflow-hidden" style="position:relative !important">
+            <div id="particles-js"></div>
+            <h1>Seattle Math Circles</h1>
+            <h5>Bringing math teachers in the Seattle area together through the joy of doing Math</h5>
+            
             <script type="text/javascript" src="JS/particles.js"></script>
             <script type="text/javascript" src="JS/app.js"></script>
         </div>
         
-        <div class="container-center">
-            <div class="container-center-img">
-                <img src="IMG/Seattle%20Math%20Circle%20October%2030th.jpg">
-            </div>
-            <div class="container-center-p">
-                <p>On Wednesday, October 30th, The Downtown School will be hosting the first Seattle Math Circle event.</p> 
-            
-                <p>This event is an opportunity for middle and high school math teachers at independent schools in the Seattle area to network and enjoy doing math with each other.</p>
-                
-                <p>John Conway's Game of Life is a great example of a topic with a low entry and a high ceiling. By exploring the game, math teachers will practice their mathematical thinking and ability to ask good questions while having fun.</p>
-                
-                <p>Stay tuned for more information about future Seattle Math Circles! Events will tentatively be once a month. </p>
+        <div class="container">
+            <img class="img-fluid float-left" src="IMG/people-working.jpg" alt="People Working" style="margin-right:20px; margin-bottom: 20px">
+            <div class="container" style="height: 426px">
+                <p style="font-size: 18px">Seattle Math Circles are an opportunity for middle and high school math teachers in the Seattle area to come together to do recreational mathematics together while networking.</p>
+                <p style="font-size: 18px">With its first event in October 2019, Seattle Math Circles will start by inviting teachers from members of the Pugent Sound Independent Schools group. By 2020, Seattle Math Circles looks to expand to including public schools in the Seattle Area.</p>
+                <p style="font-size: 18px">If you are a teacher in Seattle and would like to participate at some point in the future, be sure to visit our <a href="contact.html">Contact Page</a> and send us a message. </p>
+                <p style="font-size: 18px">Also, be sure to check back here to see how we're growing!</p>
             </div>
         </div>
-        
-        <!--<div class="under-construction">
-            Under Construction
-        </div>-->
+            
     </body>
-    
 </html>
