@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Monoton);
 
 .fancy-font {
-    font-family: "Monoton", sans-serif;
+    font-family: "Monoton", sans-serif !important;
 }
 
 .nav-item a:hover {
