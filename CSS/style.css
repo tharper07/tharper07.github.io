@@ -31,3 +31,12 @@
     object-fit: cover;
     margin: auto;
 }
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.fading-image:hover {
+    opacity: 0.7;
+}
