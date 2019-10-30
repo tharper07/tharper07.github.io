@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-width: 100%;
+    position:absolute;
+    background: white;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    background: green;
+    width: 10vw;
+    height:10vw;
+    border: 2px solid black;
+}
+
+.box:hover {
+    background: red;
+}
+
+.box:focus {
+    background: red;
+}
+
+a {
+    background: white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
